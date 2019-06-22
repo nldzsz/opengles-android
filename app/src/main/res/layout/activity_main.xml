@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/id_content_layout">
+    <Spinner
+        android:id="@+id/id_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+    </Spinner>
+
+    <Button
+        android:id="@+id/id_btn1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/id_spinner"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="加载一张图片"/>
+    <Button
+        android:id="@+id/id_btn2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/id_btn1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="在图片上画对角线"/>
+    <Button
+        android:id="@+id/id_btn3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/id_btn2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="渲染后截屏"/>
+</RelativeLayout>
